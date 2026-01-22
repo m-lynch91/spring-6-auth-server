@@ -124,6 +124,7 @@ public class SecurityConfig {
     // An instance of com.nimbusds.jose.jwk.source.JWKSource for signing access tokens
     // method creates a key-pair and registers it with authorization server to be used for authenticating
     @Bean
+    // method to create a key-pair and registers it with authorization server to be used for authenticating
     public JWKSource<SecurityContext> jwkSource() {
         KeyPair keyPair = generateRsaKey();
         RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
