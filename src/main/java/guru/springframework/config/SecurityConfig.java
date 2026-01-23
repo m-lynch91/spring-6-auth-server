@@ -1,4 +1,4 @@
-package guru.springfraemwork.config;
+package guru.springframework.config;
 
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
